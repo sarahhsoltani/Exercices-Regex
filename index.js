@@ -35,7 +35,7 @@ input()
 // ------------------EXercice 5--------------------
 function alphabet(){
 let name="aaabcc"
-let regex=/^[a][a-zA-Z]{0,15}[c]{1,15}[a-zA-Z]{0,15}$/;
+let regex=/^[a][a-zA-Z]{0,10}[c]{1,10}[a-zA-Z]{0,12}$/;
 let resultat=regex.test(name)
 //console.log(resultat)
 }
@@ -45,6 +45,6 @@ function number(){
 let num="12445";
 let regex=/^[0-9]{5}$/;
 let resultat=regex.test(num)
-console.log(resultat)
+//console.log(resultat)
 }
 number()
